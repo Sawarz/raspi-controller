@@ -8,5 +8,6 @@ const server = app
 
 
 app.get('/', function(req, res) {
+  console.log("XD");
   res.send('Hello World!');
 });
