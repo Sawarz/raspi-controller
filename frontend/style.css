@@ -1,7 +1,7 @@
 #container{
-    width: 80%;
-    height: 100%;
-    margin-left: 10%;
+    width: 80vw;
+    height: 100vh;
+    margin-left: 10vw;
 }
 button{
     width: 20%;
