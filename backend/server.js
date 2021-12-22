@@ -13,10 +13,10 @@ const server = app
   });
 
 app.get('/', function(req, res) {
-  res.send('essa');
+  res.send("essa");
 });
 
 app.post("/es", (req, res) => {
-  res.send('essasito');
+  res.send(req);
 });
 
