@@ -1,5 +1,5 @@
 const button = document.querySelector("#button")
-import { axios } from "./node_modules/axios/index.js";
+const axios = require('axios');
 
 button.addEventListener("click", () => {
 axios
