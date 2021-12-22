@@ -13,9 +13,6 @@ const server = app
   });
 
 app.get('/', function(req, res) {
-  res.send('Hello World!');
-});
-app.get('/buttondata', function(req, res) {
   res.send('essasito');
 });
 
