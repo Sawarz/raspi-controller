@@ -12,12 +12,13 @@ const server = app
     next();
   });
 
+app.use(express.json());
+
 app.get('/', function(req, res) {
   res.send("essa");
 });
 
 app.post("/es", (req, res) => {
-  const es = req.body.es
-  res.send(es);
+  res.send(req.body.es);
 });
 
