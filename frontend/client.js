@@ -5,7 +5,7 @@ const yellow = document.querySelector("#yellow")
 green.addEventListener("click", () => {
 axios
     .post('https://raspi-controller.herokuapp.com/es', {
-        value: "green"
+        es: "green"
     })
     .then(res => {
         console.log("udalo sie");
@@ -18,7 +18,7 @@ axios
 red.addEventListener("click", () => {
     axios
         .post('https://raspi-controller.herokuapp.com/es', {
-            value: "red"
+            es: "red"
         })
         .then(res => {
             console.log("udalo sie");
@@ -31,7 +31,7 @@ red.addEventListener("click", () => {
 yellow.addEventListener("click", () => {
     axios
         .post('https://raspi-controller.herokuapp.com/es', {
-            value: "yellow"
+            es: "yellow"
         })
         .then(res => {
             console.log("udalo sie");
