@@ -12,7 +12,7 @@ const server = app
     next();
   });
 
-app.get('/', function(req, res) {
+app.get('/es', function(req, res) {
   res.send('essasito');
 });
 
