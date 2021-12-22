@@ -17,6 +17,6 @@ app.get('/', function(req, res) {
 });
 
 app.post("/es", (req, res) => {
-  res.send(req.body.value);
+  res.send({ req.body.value });
 });
 
