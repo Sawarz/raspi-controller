@@ -1,5 +1,4 @@
 const button = document.querySelector("#button")
-const axios = require('axios');
 
 button.addEventListener("click", () => {
 axios
