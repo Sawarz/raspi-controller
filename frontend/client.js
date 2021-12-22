@@ -7,7 +7,6 @@ axios
     })
     .then(res => {
         console.log("udalo sie");
-        console.log(`statusCode: ${res.status}`)
         console.log(res)
     })
         .catch(error => {
