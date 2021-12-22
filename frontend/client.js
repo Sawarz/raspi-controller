@@ -2,7 +2,7 @@ const button = document.querySelector("#button")
 
 button.addEventListener("click", () => {
 axios
-    .post('https://raspi-controller.herokuapp.com', {
+    .post('https://raspi-controller.herokuapp.com/', {
         value: "essa"
     })
     .then(res => {
