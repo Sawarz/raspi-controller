@@ -26,6 +26,6 @@ app.post("/es", (req, res) => {
 });
 
 app.get('/requests', function(req, res) {
-  res.send(requests);
+  res.send("XD");
 });
 
