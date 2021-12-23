@@ -23,10 +23,12 @@ app.get('/', function(req, res) {
 app.post("/es", (req, res) => {
   request = req.body.es;
   res.send(req.body.es);
-  request = "";
 });
 
 app.get('/requests', function(req, res) {
   res.send(request);
 });
 
+app.post("/delete", (req, res) => {
+  request = "";
+});
