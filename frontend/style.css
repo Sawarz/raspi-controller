@@ -8,6 +8,7 @@
     height: 100vh;
 }
 button{
+    cursor: pointer;
     border-radius: 0;
     width: 30%;
     height: 100%;
